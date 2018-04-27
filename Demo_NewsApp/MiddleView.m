@@ -10,6 +10,7 @@
 #import "Constant.h"
 #import "PromptView.h"
 #import "MaskView.h"
+#import "MixImageAndText.h"
 
 @interface MiddleView()<UIScrollViewDelegate>
 {
@@ -18,6 +19,7 @@
     UIScrollView *newsScrollView;
     NSMutableArray *arrayInfo;
     MaskView *maskView;
+    MixImageAndText *mixImageAndText;
 
 }
 @end
@@ -34,7 +36,14 @@
     return self;
 }
 
-
+- (void) addMixImageTextFrame:(CGRect )frame image:(NSString *)image title:(NSString *)title url:(NSString *)url
+{
+    mixImageAndText = [[MixImageAndText alloc]initWithFrame:frame];
+    [self addSubview:mixImageAndText];
+    [mixImageAndText setImage:image];
+    [mixImageAndText setTitle:title];
+    [mixImageAndText setUrlStr:url];
+}
 
 - (void) addNewsScrollView
 {

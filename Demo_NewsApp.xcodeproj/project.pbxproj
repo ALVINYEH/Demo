@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1572A2902092C95C007935A3 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1572A28F2092C95C007935A3 /* MyButton.m */; };
 		15C43D502091AFC600ADC3F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C43D4F2091AFC600ADC3F3 /* AppDelegate.m */; };
 		15C43D532091AFC600ADC3F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C43D522091AFC600ADC3F3 /* ViewController.m */; };
 		15C43D562091AFC600ADC3F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C43D542091AFC600ADC3F3 /* Main.storyboard */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1572A28E2092C95C007935A3 /* MyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		1572A28F2092C95C007935A3 /* MyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
 		15C43D4B2091AFC600ADC3F3 /* Demo_NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C43D4E2091AFC600ADC3F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15C43D4F2091AFC600ADC3F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 				15C43D692091B3F400ADC3F3 /* MiddleView.m */,
 				15C43D712091ECFB00ADC3F3 /* MixImageAndText.h */,
 				15C43D722091ECFB00ADC3F3 /* MixImageAndText.m */,
+				1572A28E2092C95C007935A3 /* MyButton.h */,
+				1572A28F2092C95C007935A3 /* MyButton.m */,
 				15C43D6B2091BBF800ADC3F3 /* PromptView.h */,
 				15C43D6C2091BBF800ADC3F3 /* PromptView.m */,
 				15C43D542091AFC600ADC3F3 /* Main.storyboard */,
@@ -168,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1572A2902092C95C007935A3 /* MyButton.m in Sources */,
 				15C43D532091AFC600ADC3F3 /* ViewController.m in Sources */,
 				15C43D5E2091AFC700ADC3F3 /* main.m in Sources */,
 				15C43D662091B00C00ADC3F3 /* TopView.m in Sources */,

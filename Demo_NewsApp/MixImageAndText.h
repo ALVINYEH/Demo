@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface MixImageAndText : UIView
-- (void) setImage:(NSString *)imageName
+
+- (void) setImage:(NSString *)imageName;
+- (void) setTitle:(NSString *)title;
+- (void) setUrlStr:(NSString *)url;
+
 @end
